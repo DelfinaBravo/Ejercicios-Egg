@@ -11,8 +11,8 @@ public class basic {
 
         System.out.println("Por favor ingresar dos numeros enteros distintos");
 
-        numero = (int) leer.nextLong();
-        numero1 = (int) leer.nextLong();
+        numero = (int) leer.nextInt();
+        numero1 = (int) leer.nextInt();
         sumar = numero + numero1;
 
         System.out.println("La suma de los numeros es " + sumar);
